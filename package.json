@@ -1,0 +1,31 @@
+{
+  "name": "wechat-js",
+  "version": "0.0.1",
+  "description": "WeChat package for JS-SDK.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egame/wechat-js.git"
+  },
+  "keywords": [
+    "wechat",
+    "jssdk"
+  ],
+  "dependencies": {
+    "request": "*",
+    "jssha": "^1.5.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "should": "~2.1.1"
+  },
+  "author": "Vincent Ting",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egame/wechat-js/issues"
+  },
+  "homepage": "https://github.com/egame/wechat-js"
+}
