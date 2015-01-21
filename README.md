@@ -13,7 +13,8 @@
 1. `npm install wechat-js`
 
 		var WeChat = require('wechat-js');
-		var weChat = new WeChat(APP_ID, APP_SECRET[, redisConn])
+		var weChat = new WeChat(APP_ID, APP_SECRET[, redisConn]);
+		console.log(weChat.sign(url))
 		
 如果使用 redis 作为缓存的话，需要在这里写入 redisConn，即 `redis.createClient()` 后返回的对象。
 
