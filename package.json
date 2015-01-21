@@ -2,7 +2,7 @@
   "name": "wechat-js",
   "version": "0.0.1",
   "description": "WeChat package for JS-SDK.",
-  "main": "index.js",
+  "main": "/lib/index.js",
   "scripts": {
     "test": "mocha tests/*.js"
   },
@@ -20,7 +20,8 @@
   },
   "devDependencies": {
     "mocha": "~1.17.1",
-    "should": "~2.1.1"
+    "should": "~2.1.1",
+    "redis": "*"
   },
   "author": "Vincent Ting",
   "license": "MIT",
