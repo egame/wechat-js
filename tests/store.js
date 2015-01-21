@@ -31,13 +31,14 @@ describe('memory store', function () {
         });
     });
     it('should be be null if expired', function (done) {
+        key = randStr();
         memStore.set(key, value, 0.01, function () {
             setTimeout(function () {
                 memStore.get(key, function (v) {
                     (v === null).should.be.true;
                     done();
                 });
-            }, 900);
+            }, 1000);
         });
     });
 });
@@ -59,6 +60,7 @@ describe('memory redis', function () {
         });
     });
     it('should be be null if expired', function (done) {
+        key = randStr();
         memStore.set(key, value, 1, function () {
             setTimeout(function () {
                 memStore.get(key, function (v) {
