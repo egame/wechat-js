@@ -1,6 +1,6 @@
 {
   "name": "wechat-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "WeChat package for JS-SDK.",
   "main": "/lib/index.js",
   "scripts": {
